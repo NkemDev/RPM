@@ -1,0 +1,95 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+/* The side navigation menu */
+
+.sidenav {
+width: 200px;
+position: fixed;
+z-index: 1;
+
+left: 1px;
+background-color: #535E12;
+overflow-x: hidden;
+padding: 8px 0;
+
+}
+
+.sidenav a, .dropdown-btn{
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 15px;
+color: black;
+display: block;
+border: none;
+background: none;
+width:100%;
+text-align: left;
+cursor: pointer;
+outline:none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+color: white;
+}
+.dropdown-container {
+display: none;
+background-color: #86a10e;
+padding-left: 8px;
+border: none;
+outline:none;
+font-size: 12px;
+}
+.main {
+margin-left: 140px; /* Same width as the sidebar + left position in px */
+/* Increased text to enable scrolling */
+padding: 0px 10px;
+}
+/*links on the pictures */
+.link a
+{
+text-decoration: none;
+color:black;
+font-weight: bold;
+}
+footer {
+ clear: both;
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   font-weight: bold;
+   z-index: 100;
+  
+}
+
+.lineborder{
+ 
+ 
+ background-color: #859716;
+ border-style: none;
+ color:black;
+ text-align: center;
+ width:calc(100% + 20px);
+}
+/* for the button */
+.clickbtn{
+  background-color: #6E7C15;
+  width:100px;
+  height: 30px;
+  font-weight: bold;
+ 
+}
+.fas
+{
+  color:black !important;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
